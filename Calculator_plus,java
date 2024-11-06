@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-class Test extends WindowAdapter implements ActionListener {
+class Calculator_plus extends WindowAdapter implements ActionListener {
     Frame f;
     Label l1, historyLabel;
     Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b0, custom;
@@ -13,7 +13,7 @@ class Test extends WindowAdapter implements ActionListener {
     Panel sidePanel;
     Panel mainPanel;
 
-    Test() {
+    Calculator_plus() {
         f = new Frame("Calculator");
 
         // Main display
@@ -245,6 +245,6 @@ class Test extends WindowAdapter implements ActionListener {
     }
 
     public static void main(String args[]) {
-        new Test();
+        new Calculator_plus();
     }
 }
